@@ -1,0 +1,21 @@
+type items {
+    
+    quantidade: int
+    itens: [ID]
+    id: ID
+    comboProdutoId: ID
+  
+}
+
+
+# type Query {
+#   getCombo(comboProductId: ID!)
+  
+
+#   # Cache control can only be set at root fields
+#   """
+#   Returns a markdown source given an id
+#   """
+
+# }
+
