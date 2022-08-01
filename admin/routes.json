@@ -1,5 +1,5 @@
 {
-    "admin.app.example": {
+    "admin.app.combos": {
         "component": "AdminCombos",
         "path": "/admin/app/Combos"
     }

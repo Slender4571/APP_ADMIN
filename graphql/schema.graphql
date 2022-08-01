@@ -1,21 +1,26 @@
-type combos {
+# type combos {
     
-    quantidade: Int
-    itens: [ID]
-    id: ID
-    comboProdutoId: ID
+#     quantidade: Int
+#     itens: [ID]
+#     id: ID
+#     comboProdutoId: ID
   
-}
+# }
 
+
+# type Query {
+#   __typename
+#   # getCombo(comboProductId: ID!)
+  
+
+# #   # Cache control can only be set at root fields
+# #   """
+# #   Returns a markdown source given an id
+# #   """
+
+# }
 
 type Query {
-  getCombo(comboProductId: ID!)
-  
-
-#   # Cache control can only be set at root fields
-#   """
-#   Returns a markdown source given an id
-#   """
-
+  helloworld: String
 }
 
