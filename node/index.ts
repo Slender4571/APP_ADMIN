@@ -25,7 +25,7 @@ export default new Service<Clients, RecorderState, ParamsContext>({
   graphql: {
     resolvers: {
       Query: {
-
+        getCombos
       },
     },
   },

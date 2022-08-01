@@ -1,4 +1,4 @@
-// export const getCombos = (
-//     _: any,
+export const getCombos = (
+    _: any,
 
-// ) => ComboClient.getCombos()
+) => ComboClient.getCombos()

@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
 const AdminCombos: FC = () => {
-  return <h1>Hello, World!</h1>
+  const { data, loading, error } = useQuery(getCombos)
 }
 
 export default AdminCombos

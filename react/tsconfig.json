@@ -10,5 +10,12 @@
       "node_modules/@types"
     ]
   },
-  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts"]
+  "include": [
+    "./typings/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.d.ts",
+    "./**/*.ts",
+    "./**/*.graphql"
+
+  ]
 }

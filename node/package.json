@@ -6,16 +6,16 @@
     "@vtex/api": "6.45.12"
   },
   "devDependencies": {
+    "@types/co-body": "^0.0.3",
+    "@types/jest": "^24.0.18",
     "@types/node": "^12.0.0",
     "@types/ramda": "types/npm-ramda#dist",
     "@vtex/api": "6.45.12",
-    "@vtex/tsconfig": "^0.5.6",
-    "typescript": "3.9.7",
-    "@types/co-body": "^0.0.3",
-    "@types/jest": "^24.0.18",
-    "@vtex/test-tools": "^1.0.0",
+    "@vtex/test-tools": "^3.4.3",
+    "@vtex/tsconfig": "^0.6.0",
     "tslint": "^5.14.0",
-    "tslint-config-vtex": "^2.1.0"
+    "tslint-config-vtex": "^2.1.0",
+    "typescript": "3.9.7"
   },
   "scripts": {
     "lint": "tsc --noEmit && tslint -c tslint.json './**/*.ts'"
