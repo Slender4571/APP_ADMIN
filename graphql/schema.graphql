@@ -1,4 +1,4 @@
-# type combos {
+# type items {
     
 #     quantidade: Int
 #     itens: [ID]
@@ -19,6 +19,8 @@
 # #   """
 
 # }
+
+# Código padrão do curso de admin
 
 type Query {
   helloworld: String
