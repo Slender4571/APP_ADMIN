@@ -14,7 +14,6 @@
     "@types/node": "^18.6.3",
     "@types/prop-types": "^15.7.0",
     "@types/react": "^16.9.31",
-    "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.6.0",
     "typescript": "3.9.7"
   }
